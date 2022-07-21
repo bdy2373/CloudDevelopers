@@ -1,0 +1,9 @@
+server.port: 8888
+spring: 
+  cloud:
+    config:
+      name: configserver
+      server.git:
+        uri: http://edu7:VMware1!@gitlab01.ds.global:18080/edu07/test/spring-cloud-sample-configrepo-edu7.git
+        default-label: main
+        
